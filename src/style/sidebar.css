@@ -1,0 +1,13 @@
+.offcanvas-body {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .offcanvas-body.fade-in {
+    opacity: 1;
+  }
+  
+  .offcanvas-body.fade-out {
+    opacity: 0;
+  }
+  

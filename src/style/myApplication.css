@@ -1,0 +1,7 @@
+.symbol{
+    font-size: 100px;
+    color: rgb(80, 18, 18);
+}
+.custom-container{
+    --bs-gutter-x: 0 !important;
+}

@@ -1,0 +1,43 @@
+.login-container {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Adjust width as needed */
+    width: 400px;
+
+    /* Style adjustments */
+    padding: 20px;
+    /* background-color: rgba(255, 255, 255, .8); */
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #d6247c;
+}
+
+input[type=text],
+input[type=password] {
+    /* Style adjustments */
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+.letter-color{
+    color: #C43A6D;
+}
+.custom-button{
+    width: 100%;
+    background-color: #C43A6D !important;
+}
